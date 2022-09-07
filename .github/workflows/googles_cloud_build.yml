@@ -27,7 +27,7 @@ on:
 #   SERVICE_NAME: helloworld-nodejs
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:    
+workflow_dispatch:    
 
 jobs:
   setup-build-deploy:
