@@ -42,6 +42,5 @@ jobs:
       run: |-
         gcloud builds submit \
           --quiet \
-          --tag "gcr.io/andre/otte:1"   
-          #           --tag "gcr.io/$PROJECT_ID/$SERVICE_NAME:$GITHUB_SHA"   
+          --tag "gcr.io/cloudbuildtest-361611/cloud-build-testing   
           GCP_BUILD_STAGING_TRIGGER_ID
