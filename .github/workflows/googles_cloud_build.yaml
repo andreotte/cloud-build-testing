@@ -42,5 +42,5 @@ jobs:
       run: |-
         gcloud builds submit \
           --quiet \
-          --tag "gcr.io/cloudbuildtest-361611/cloud-build-testing   
+          --tag "gcr.io/cloudbuildtest-361611/cloud-build-testing"
           GCP_BUILD_STAGING_TRIGGER_ID
