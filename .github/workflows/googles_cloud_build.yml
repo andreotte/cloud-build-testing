@@ -14,11 +14,11 @@
 
 name: Build using Cloud Build
 
-on:
-  push:
-    branches:
-    - 'main'
-    - 'dev'
+# on:
+#   push:
+#     branches:
+#     - 'main'
+#     - 'dev'
 #   pull_request:
 #     branches: 
 #     - 'main' 
